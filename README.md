@@ -6,6 +6,7 @@ from MPI traces and works out **why** they are late: the application's own work,
 or the MPI library itself.
 
 The traces come from **IPMPI**, a PMPI tracer that records every MPI call per rank with its source-line call site.
+The tracer source is not included here; it is available on request (see [Contact](#contact)).
 
 ## What is measured
 
@@ -118,6 +119,10 @@ python3 analysis/plot_rank_delays.py out/<run>_rank_delay_agg.csv --ranks-per-no
 python3 analysis/plot_straggler_freq.py <run_folder> --ranks-per-node 16
 python3 analysis/decomp_lateness.py <run_folder> <callsite_id>
 ```
+
+## Contact
+
+For the IPMPI tracer code or the raw traces, email Swastik Bhandari at swastik3223@student.ku.edu.np.
 
 ## Acknowledgements
 
