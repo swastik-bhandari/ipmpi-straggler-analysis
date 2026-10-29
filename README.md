@@ -121,8 +121,7 @@ python3 analysis/decomp_lateness.py <run_folder> <callsite_id>
 
 ## Acknowledgements
 
-This work was carried out under the mentorship of Prof. Preeti Malakar (IIT Kanpur). The production-cluster
-experiments (finding 1) were done in collaboration with Prakhar.
+This work was carried out under the mentorship of Prof. Preeti Malakar (IIT Kanpur).
 
 ## License
 
