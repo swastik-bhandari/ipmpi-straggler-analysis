@@ -6,6 +6,7 @@ from MPI traces and works out **why** they are late: the application's own work,
 or the MPI library itself.
 
 The traces come from **IPMPI**, a PMPI tracer that records every MPI call per rank with its source-line call site.
+
 > **Note:** This repository shows a selection of results. Most of this work is ongoing research and not yet
 > published, so the tracer source and full data are not included. I'm happy to discuss it; see [Contact](#contact).
 
