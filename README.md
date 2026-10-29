@@ -6,7 +6,8 @@ from MPI traces and works out **why** they are late: the application's own work,
 or the MPI library itself.
 
 The traces come from **IPMPI**, a PMPI tracer that records every MPI call per rank with its source-line call site.
-The tracer source is not included here; it is available on request (see [Contact](#contact)).
+> **Note:** This repository shows a selection of results. Most of this work is ongoing research and not yet
+> published, so the tracer source and full data are not included. I'm happy to discuss it; see [Contact](#contact).
 
 ## What is measured
 
@@ -122,7 +123,8 @@ python3 analysis/decomp_lateness.py <run_folder> <callsite_id>
 
 ## Contact
 
-For the IPMPI tracer code or the raw traces, email Swastik Bhandari at swastik3223@student.ku.edu.np.
+To discuss the work, or for the IPMPI tracer code and the raw traces, email Swastik Bhandari at
+swastik3223@student.ku.edu.np.
 
 ## Acknowledgements
 
